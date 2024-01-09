@@ -1,0 +1,71 @@
+.gestionCategoriasContainer {
+    position: relative;
+    width: 100%;
+    min-height: 550px;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gestionCategoriasContainer form {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 100%;
+}
+.gestionCategoriasContainer form label {
+    white-space: nowrap;
+    margin-right: 8px;
+}
+.gestionCategoriasContainer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.gestionCategoriasContainer ul li {
+    background-color: #f8f8f8;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto; /* Ajusta automáticamente la altura */
+}
+
+/* Estilos específicos para el li del formulario */
+.gestionCategoriasContainer ul li.form-li {
+    align-items: stretch; /* Estira los elementos internos para llenar el espacio */
+}
+
+.gestionCategoriasContainer ul li.form-li form {
+    display: flex;
+    flex-direction: row;
+    gap: 1vw;
+    width: 100%;
+    margin: 0; /* Elimina cualquier margen predeterminado */
+}
+
+.gestionCategoriasContainer ul li.form-li form > * {
+    margin: auto 0; /* Centra verticalmente los elementos del formulario */
+}
+
+.gestionCategoriasContainer ul li span a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    margin-right: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.gestionCategoriasContainer ul li span a:hover {
+    background-color: #007bff;
+    color: white;
+}

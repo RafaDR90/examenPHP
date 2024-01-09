@@ -1,0 +1,39 @@
+/*Categoria*/
+@import url('categoria/editaCategoria.css');
+/*Productos*/
+@import url('productos/muestraProductos.css');
+@import url('productos/gestionProductos.css');
+@import url('pagination/pagination.css');
+@import url('productos/editaProducto.css');
+@import url('productos/addProducto.css');
+@import url('productos/index.css');
+/*Carrito*/
+@import url('carrito/vistaCarrito.css');
+/*Usuario*/
+@import url('usuario/gestionUsuarios.css');
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.exito{
+    color: green;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vw;
+}
+.mensajesError{
+    height: min-content;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.error{
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 1vw;
+}

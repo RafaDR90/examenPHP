@@ -1,0 +1,49 @@
+.loginContainer {
+    background: white;
+    max-width: 400px;
+    min-height: 550px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    margin: 10px auto; /* Centra el contenedor en la pantalla */
+    width: 100%;
+}
+
+.loginContainer form p {
+    margin-bottom: 15px;
+}
+
+.loginContainer form label {
+    display: block;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.loginContainer form input[type="text"],
+.loginContainer form input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.loginContainer form input[type="submit"] {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.loginContainer form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+.loginContainer h3 {
+    color: #333;
+    text-align: center;
+    margin: 20px 0;
+}

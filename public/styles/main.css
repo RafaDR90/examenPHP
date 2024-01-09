@@ -1,0 +1,7 @@
+main {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh; /* Asegura que el main ocupe al menos toda la altura de la ventana */
+}

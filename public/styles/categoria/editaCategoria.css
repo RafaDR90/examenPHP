@@ -1,0 +1,63 @@
+
+
+.editaCategoriaContainer {
+    min-height: 550px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px black;
+    width: 100%;
+    max-width: 400px;
+}
+
+.editaCategoriaContainer h3 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.editaCategoriaContainer form {
+    display: flex;
+    flex-direction: column;
+}
+
+.editaCategoriaContainer label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+.editaCategoriaContainer input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #4cae4c;
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .editaCategoriaContainer {
+        padding: 20px;
+        margin: 10px;
+    }
+
+    .editaCategoriaContainer form {
+        width: auto;
+    }
+}
